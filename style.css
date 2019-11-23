@@ -453,7 +453,7 @@ background-color: #FFFFFF;
   margin: 0 18px 0 18px;
   padding: 3px 6px 3px 5px;
   font-size: 14px;
-  line-height:  19.6px;
+  line-height:  9.6px;
 }
 
 .secondary_links_text:hover {
@@ -514,11 +514,12 @@ background-color: #FFFFFF;
   position: relative;
   margin-bottom: 1px;
   color: #FFFFFF;
-  font-family: "AxisStd-Light", "メイリオ", "Meiryo", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "Osaka", "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  font-family: "Microsoft Sans Serif";
   text-align: center;
   font-size: 52px;
   letter-spacing: 0.3em;
   margin-top: 84px;
+  font-weight: lighter;
 }
 
 
@@ -611,6 +612,9 @@ background-color: #FFFFFF;
   text-align: center;
   font-family: "Microsoft Sans Serif";
   LETTER-SPACING: 6.6px;
+  line-height: 57px;
+  font-weight: 1;
+  margin: 0;
 }
 
 .intermediate_border_B {
@@ -651,7 +655,7 @@ background-color: #FFFFFF;
 }
 
 .page_text_D {
-  /* background: red; */
+  font-weight: 100;
   font-size: 26px;
   text-align: left;
   letter-spacing: 0.6px;
@@ -831,10 +835,10 @@ background-color: #FFFFFF;
 
 }
 
-.nshool_appeal_title p {
+.nshool_appeal_title_A {
   font-size: 26px;
   font-family: "Microsoft Sans Serif";
-  line-height: 22px;
+  line-height: 68px;
   color: rgba(39, 39, 39, 1);
   margin: 0;
 }
@@ -1187,6 +1191,7 @@ background-color: #FFFFFF;
   letter-spacing: 0.6px;
   text-align: center;
   padding-top: 70px;
+  font-weight: 100;
 
 }
 
@@ -1197,7 +1202,7 @@ background-color: #FFFFFF;
   height: 5px;
   border-top: solid 1px #333333;
   transform-origin: center;
-  transform: rotate(0deg) translateX(450px) translateY(0px);
+  transform: rotate(0deg) translateX(450px) translateY(-24px);
 }
 
 .Advanced_Program_frame_B {
@@ -1736,6 +1741,7 @@ background-color: #FFFFFF;
   grid-row: 1 / 2;
   grid-column: 1 / 6; 
   background: #f7f7f7;
+  border-top: #ddd solid 1px;
 }
 
 
@@ -1744,8 +1750,8 @@ background-color: #FFFFFF;
   font-family: "Microsoft Sans Serif";
   letter-spacing: 0.6px;
   text-align: center;
-  padding-top: 70px;
-  border-top: #ddd solid 1px;
+  margin: 70px;
+  font-weight: 100;
 }
 
 .it_tool_frame_A_title:after {
@@ -1862,6 +1868,7 @@ line-height: 40px;
   letter-spacing: 0.6px;
   text-align: center;
   padding-top: 70px;
+  font-weight: 100;
 }
 
 .it_tool_frame_E:after {
@@ -1951,6 +1958,7 @@ line-height: 40px;
 grid-row: 9 / 10;
 grid-column: 1 / 6; 
 background: #f7f7f7;
+border-top: #ddd solid 1px;
 }
 
 
@@ -1959,8 +1967,8 @@ font-size: 33px;
 font-family: "Microsoft Sans Serif";
 letter-spacing: 0.6px;
 text-align: center;
-padding-top: 70px;
-border-top: #ddd solid 1px;
+padding-top: 20px;
+font-weight: 100;
 }
 
 .it_tool_frame_H_title:after {
@@ -2167,6 +2175,7 @@ line-height: 40px;
   grid-row: 17 / 18;
   grid-column: 1 / 6; 
   background: #f7f7f7;
+  border-top: #ddd solid 1px;
 }
 
 
@@ -2175,8 +2184,10 @@ line-height: 40px;
   font-family: "Microsoft Sans Serif";
   letter-spacing: 0.6px;
   text-align: center;
-  padding-top: 39px;
-  border-top: #ddd solid 1px;
+  font-weight: 100;
+  margin-top: 58px;
+  margin-bottom: 0;
+
 }
 
 .it_tool_frame_P_title:after {
@@ -2393,6 +2404,7 @@ font-family: "Microsoft Sans Serif";
 letter-spacing: 0.6px;
 text-align: center;
 padding-top: 70px;
+font-weight: 100;
 }
 
 .it_tool_frame_W_title:after {
@@ -3007,7 +3019,7 @@ transform: rotate(44deg) translateX(-13px) translateY(8px);
   text-align: left;
   color: #272727;
   font-size: 14px;
-  line-height: 28px;
+  line-height: 27px;
   letter-spacing: 0.533333px;
 }
 
